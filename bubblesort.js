@@ -5,6 +5,7 @@ function bubblesort (numeros) {
             if(numeros[j] > numeros[j + 1]) {
                 let num = numeros[j]
                 numeros [j] = numeros[j + 1]
+                numeros[j + 1] = num
             }
         }
     }
