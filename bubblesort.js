@@ -4,6 +4,7 @@ function bubblesort (numeros) {
         for (let j = 0; j < tamanho - i - 1; j++) {
             if(numeros[j] > numeros[j + 1]) {
                 let num = numeros[j]
+                numeros [j] = numeros[j + 1]
             }
         }
     }
