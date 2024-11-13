@@ -14,3 +14,5 @@ function bubblesort (numeros) {
 
 let numeros = [8, 7, 2, 10, 3, 1, 6, 4, 5, 9]
 let teste = bubblesort(numeros)
+
+console.log(teste)
