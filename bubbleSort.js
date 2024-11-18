@@ -1,6 +1,6 @@
 let readline = require('readline-sync')
 
-function bubblesort (numeros) {
+function bubbleSort (numeros) {
     let tamanho = numeros.length
     for (let i = 0; i < tamanho; i++) {
         for (let j = 0; j < tamanho - i - 1; j++) {
@@ -26,6 +26,6 @@ let q9 = readline.questionInt("Digite um numero: ")
 let q10= readline.questionInt("Digite um numero: ")
 
 let numeros = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
-let teste = bubblesort(numeros)
+let teste = bubbleSort(numeros)
 
 console.log(teste)
