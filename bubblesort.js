@@ -14,6 +14,12 @@ function bubblesort (numeros) {
     return numeros
 }
 
+let q1 = readline.questionInt("Digite um numero: ")
+let q2 = readline.questionInt("Digite um numero: ")
+let q3 = readline.questionInt("Digite um numero: ")
+let q4 = readline.questionInt("Digite um numero: ")
+let q5 = readline.questionInt("Digite um numero: ")
+
 let numeros = [8, 7, 2, 10, 3, 1, 6, 4, 5, 9]
 let teste = bubblesort(numeros)
 
